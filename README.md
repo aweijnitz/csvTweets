@@ -1,6 +1,9 @@
 # csvTweets.js
 Server that takes a twitter username and returns a CSV file with the latest tweets.
 
+![UI](doc/ui.png?raw=true "Screenshot of UI")
+
+
 
 ## Install
 First clone/save this repo
