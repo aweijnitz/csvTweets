@@ -1,0 +1,12 @@
+{
+    "app": {
+        "webroot": "public"
+    },
+    "server": {
+        "port": 8888,
+        "throttle": {
+            "rate": 2,
+            "burst": 5
+        }
+    }
+}
