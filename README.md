@@ -17,7 +17,7 @@ First clone/save this repo
 
 ### Configure port
 
-Edit the file [appConfig.json](appConfig.json). The default port is 8888.
+Edit the file [appConfig.json](conf/appConfig.json). The default port is 8888.
 
 ## Run
 	run.sh
@@ -31,4 +31,4 @@ Point browser to [localhost:8888](http://localhost:8888)
 	
 ## Change the code
 
-All interesting stuff happens in [userTweetsHandler.js](userTweetsHandler.js).
+All interesting stuff happens in [userTweetsHandler.js](routes/userTweetsHandler.js).
