@@ -50,7 +50,7 @@ var handleForm = function userTweetsHandler(appConf, log4js) {
         } else {
             twitterClient.get('statuses/user_timeline', {
                 screen_name: stripAlpha(twitterName),
-                count: 200,
+                count: (appConf.app.tweetLimit || 10),
                 contributor_details: false,
                 include_rts: false
             }, function (error, tweets, response) {

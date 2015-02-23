@@ -1,6 +1,7 @@
 {
     "app": {
-        "webroot": "public"
+        "webroot": "public",
+        "tweetLimit": 3200
     },
     "server": {
         "port": 8888,
